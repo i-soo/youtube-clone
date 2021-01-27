@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>youtube</title>
+    <script src="https://kit.fontawesome.com/9b5820fefb.js" 
+    crossorigin="anonymous"></script>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!--Video Player-->
+    <section class="player">
+        <video controls src="video/Girl - 43459.mp4"></video>
+    </section>
+
+    <!-- 화면이 커질 때 정렬하기 편하게 상자에 넣어놓음-->
+    <div class="infoAndUpNext">
+        <!--Video Info-->
+        <section class="info">
+            <!--Metadata-->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Vlog</li>
+                    <li>#Student</li>
+                    <li>#Diary</li>
+                </ul>
+                <div class="titleAndBtn">
+                    <span class="title clamp">
+                        브이로그 | 학생 일상 | 차분한 감성 깔끔한 영상
+                        | 다이어리 | 손쉬운 작성 | 다꾸 | VLOG in my own space
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <span class="views">1M views 1 month ago</span>
+            </div>
+            <!--Actions-->
+            <ul class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+                <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+                <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+            </ul>
+            <!--Channel Description-->
+            <div class="channel">
+                <div class="metadata">
+                    <img src="image/people-2013447_640.jpg" alt="">
+                    <div class="info">
+                        <span class="name">띵's life</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+
+        <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/paper-3240768_640.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            브이로그 | 학생 일상 | 차분한 감성 깔끔한 영상
+                            | 커피 한 잔 | 여유 | VLOG in my own space
+                        </span>
+                        <span class="name">띵's life</span>
+                        <span class="views">65K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/highlighter-1103723_640.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            브이로그 | 학생 일상 | 발랄한 감성 깔끔한 영상
+                            | 플래너 | 계획 | VLOG in my own space
+                        </span>
+                        <span class="name">띵's life</span>
+                        <span class="views">87K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/natural-cosmetics-3397277_640.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">
+                            브이로그 | 학생 일상 | 활기찬 감성 깔끔한 영상
+                            | flower | 데코 | VLOG in my own space
+                        </span>
+                        <span class="name">띵's life</span>
+                        <span class="views">79K views</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
